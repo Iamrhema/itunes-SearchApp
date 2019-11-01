@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <h1>
+      Itunes
+    </h1>
+    <img
+      alt="...."
+      src="itunes-note-brands.svg"
+      style={
+        Object {
+          "width": "30px",
+        }
+      }
+    />
+    <div>
+      <nav>
+        <a
+          href="#favourites"
+        >
+          <h1>
+            Favourites
+          </h1>
+        </a>
+      </nav>
+    </div>
+  </div>
+  <div
+    className="row"
+    style={
+      Object {
+        "float": "right",
+        "marginRight": "50px",
+        "marginTop": "30px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginRight": "50px",
+        }
+      }
+    >
+      <input
+        className="form-control"
+        name="name"
+        onChange={[Function]}
+        placeholder="Enter search Name"
+        type="text"
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "marginRight": "20px",
+        }
+      }
+    >
+      <select
+        class="form-control"
+        onChange={[Function]}
+      >
+        <option>
+          CHOOSE
+        </option>
+        <option
+          value="song"
+        >
+          Song
+        </option>
+        <option
+          value="movie"
+        >
+          Movie
+        </option>
+        <option
+          value="musicVideo"
+        >
+          Music Video
+        </option>
+      </select>
+    </div>
+    <div>
+      <button
+        className="btn btn-dark"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="glyphicon glyphicon-search"
+        />
+         Search
+      </button>
+    </div>
+  </div>
+  <div
+    className="row"
+    style={
+      Object {
+        "marginTop": "125px",
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    id="favourites"
+  >
+    <div
+      className="favourites text-center"
+    >
+      <h1>
+        Favourites
+      </h1>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-xs-12 "
+      >
+        <nav>
+          <div
+            class="nav nav-tabs nav-fill"
+            id="nav-tab"
+            role="tablist"
+          >
+            <a
+              aria-controls="nav-home"
+              aria-selected="true"
+              class="nav-item nav-link active"
+              data-toggle="tab"
+              href="#nav-home"
+              id="nav-home-tab"
+              role="tab"
+            >
+              Music
+            </a>
+            <a
+              aria-controls="nav-profile"
+              aria-selected="false"
+              class="nav-item nav-link"
+              data-toggle="tab"
+              href="#nav-profile"
+              id="nav-profile-tab"
+              role="tab"
+            >
+              Movies
+            </a>
+            <a
+              aria-controls="nav-contact"
+              aria-selected="false"
+              class="nav-item nav-link"
+              data-toggle="tab"
+              href="#nav-contact"
+              id="nav-contact-tab"
+              role="tab"
+            >
+              Music Videos
+            </a>
+          </div>
+        </nav>
+        <div
+          className="tab-content py-3 px-3 px-sm-0"
+          id="nav-tabContent"
+        >
+          <div
+            aria-labelledby="nav-home-tab"
+            className="tab-pane fade show active"
+            id="nav-home"
+            role="tabpanel"
+          >
+            <div
+              className="row"
+            />
+          </div>
+          <div
+            aria-labelledby="nav-profile-tab"
+            className="tab-pane fade"
+            id="nav-profile"
+            role="tabpanel"
+          >
+            <div
+              className="row"
+            />
+          </div>
+          <div
+            aria-labelledby="nav-contact-tab"
+            className="tab-pane fade"
+            id="nav-contact"
+            role="tabpanel"
+          >
+            <div
+              className="row"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
