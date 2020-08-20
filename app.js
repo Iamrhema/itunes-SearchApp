@@ -45,5 +45,5 @@ app.listen(PORT, () => {
 });
 
 // establish port/local server
-const PORT = process.env.PORT || 7001;
-app.listen(PORT, () => console.log(`Port is running at ${PORT}`));
+//const PORT = process.env.PORT || 7001;
+//app.listen(PORT, () => console.log(`Port is running at ${PORT}`));
